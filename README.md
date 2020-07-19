@@ -20,6 +20,8 @@ This aim of the project is to build on concepts learnt in the C Bootcamp used fo
 
 ### Executing
 
+* Clone/download the repository
+* cd src/
 * Compile the library
 * Run program:
     * e.g: 
