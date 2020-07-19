@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumbi <rumbi@student.42.fr>                +#+  +:+       +#+        */
+/*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/16 08:43:11 by vgongora          #+#    #+#             */
-/*   Updated: 2020/07/19 16:08:50 by rumbi            ###   ########.fr       */
+/*   Updated: 2020/07/19 22:03:08 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/libft.h"
+#include "../includes/libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumbi <rumbi@student.42.fr>                +#+  +:+       +#+        */
+/*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/16 16:19:42 by vgongora          #+#    #+#             */
-/*   Updated: 2020/07/19 16:08:50 by rumbi            ###   ########.fr       */
+/*   Updated: 2020/07/19 22:03:08 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/libft.h"
+#include "../includes/libft.h"
 
 char		*ft_strnstr(const char *str, const char *to_find, size_t n)
 {

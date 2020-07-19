@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumbi <rumbi@student.42.fr>                +#+  +:+       +#+        */
+/*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/29 08:37:33 by vgongora          #+#    #+#             */
-/*   Updated: 2020/07/19 16:08:50 by rumbi            ###   ########.fr       */
+/*   Updated: 2020/07/19 22:03:08 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/libft.h"
+#include "../includes/libft.h"
 
 t_list	*ft_lstnew(void	const *content, size_t content_size)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumbi <rumbi@student.42.fr>                +#+  +:+       +#+        */
+/*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/19 14:32:30 by vgongora          #+#    #+#             */
-/*   Updated: 2020/07/19 16:08:50 by rumbi            ###   ########.fr       */
+/*   Updated: 2020/07/19 22:03:08 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/libft.h"
+#include "../includes/libft.h"
 
 void	ft_putendl_fd(char const *s, int fd)
 {
