@@ -3,19 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumbi <rumbi@student.42.fr>                +#+  +:+       +#+        */
+/*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/17 09:15:48 by vgongora          #+#    #+#             */
-/*   Updated: 2020/07/19 16:03:05 by rumbi            ###   ########.fr       */
+/*   Updated: 2020/07/20 11:43:25 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+# define BUFF_SIZE 1
 
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <fcntl.h>
 
 typedef struct		s_list
 {
@@ -87,5 +89,7 @@ int					ft_memcmp(const void *s1, const void *s2, size_t n);
 size_t				ft_strlcat(char *dest, const char *src, size_t size);
 size_t				ft_strlen(const char *s);
 char				*ft_strndup(const char *s, size_t n);
+
+int					get_next_line(const int fd, char **line);
 
 #endif
