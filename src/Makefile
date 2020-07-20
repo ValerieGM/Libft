@@ -73,6 +73,7 @@ SRC		= ft_memset.c \
 		  ft_lstadd.c \
 		  ft_lstiter.c \
 		  ft_lstmap.c \
+		  get_next_line.c\
 
 OBJ	= $(SRC:%.c=%.o)
 
